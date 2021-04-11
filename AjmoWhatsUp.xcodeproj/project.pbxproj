@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0B4EDD64CF7734AEC976D1 /* Pods_AjmoWhatsUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA88AF12BA52B89080C12BCA /* Pods_AjmoWhatsUp.framework */; };
 		38345BC726206CD2005F4B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BC626206CD2005F4B88 /* AppDelegate.swift */; };
 		38345BC926206CD2005F4B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BC826206CD2005F4B88 /* SceneDelegate.swift */; };
-		38345BCB26206CD2005F4B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BCA26206CD2005F4B88 /* ViewController.swift */; };
+		38345BCB26206CD2005F4B88 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BCA26206CD2005F4B88 /* MainViewController.swift */; };
 		38345BCE26206CD2005F4B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38345BCC26206CD2005F4B88 /* Main.storyboard */; };
 		38345BD026206CD7005F4B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38345BCF26206CD7005F4B88 /* Assets.xcassets */; };
 		38345BD326206CD7005F4B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38345BD126206CD7005F4B88 /* LaunchScreen.storyboard */; };
+		38345BEB26207667005F4B88 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BEA26207667005F4B88 /* MainCollectionViewCell.swift */; };
+		38345BEE2620767F005F4B88 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38345BED2620767F005F4B88 /* EventModel.swift */; };
+		38842E85262082A500DE8CBD /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842E84262082A500DE8CBD /* ViewControllerExtension.swift */; };
+		38842E8C2620B23000DE8CBD /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842E8B2620B23000DE8CBD /* ImageViewExtension.swift */; };
+		38842E982620C06700DE8CBD /* PaginationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842E972620C06700DE8CBD /* PaginationLayout.swift */; };
+		38842EA02622DE0300DE8CBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842E9F2622DE0300DE8CBD /* DetailViewController.swift */; };
+		38842EA32622F0EA00DE8CBD /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EA22622F0E900DE8CBD /* NavigationBarExtension.swift */; };
+		38842EB12622F62900DE8CBD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EB02622F62900DE8CBD /* ColorExtension.swift */; };
+		38842EB62623033300DE8CBD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EB52623033300DE8CBD /* StringExtension.swift */; };
+		38842EB92623036E00DE8CBD /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EB82623036E00DE8CBD /* IntExtension.swift */; };
+		38842EBD2623042F00DE8CBD /* MainViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EBC2623042F00DE8CBD /* MainViewControllerExtension.swift */; };
+		38842ECA26230B4D00DE8CBD /* TransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38842EC926230B4D00DE8CBD /* TransitionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ED0E3206B24EFB2DC5FED27 /* Pods-AjmoWhatsUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjmoWhatsUp.release.xcconfig"; path = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.release.xcconfig"; sourceTree = "<group>"; };
 		38345BC326206CD2005F4B88 /* AjmoWhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjmoWhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38345BC626206CD2005F4B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38345BC826206CD2005F4B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38345BCA26206CD2005F4B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38345BCA26206CD2005F4B88 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		38345BCD26206CD2005F4B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38345BCF26206CD7005F4B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38345BD226206CD7005F4B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38345BD426206CD7005F4B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38345BEA26207667005F4B88 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		38345BED2620767F005F4B88 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		38842E84262082A500DE8CBD /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		38842E8B2620B23000DE8CBD /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		38842E972620C06700DE8CBD /* PaginationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationLayout.swift; sourceTree = "<group>"; };
+		38842E9F2622DE0300DE8CBD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		38842EA22622F0E900DE8CBD /* NavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
+		38842EB02622F62900DE8CBD /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		38842EB52623033300DE8CBD /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		38842EB82623036E00DE8CBD /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		38842EBC2623042F00DE8CBD /* MainViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerExtension.swift; sourceTree = "<group>"; };
+		38842EC926230B4D00DE8CBD /* TransitionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExtension.swift; sourceTree = "<group>"; };
+		54D2E79D81E31D565D796EB9 /* Pods-AjmoWhatsUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjmoWhatsUp.debug.xcconfig"; path = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA88AF12BA52B89080C12BCA /* Pods_AjmoWhatsUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjmoWhatsUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0B4EDD64CF7734AEC976D1 /* Pods_AjmoWhatsUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1046E13936B1E5C986D2776B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D2E79D81E31D565D796EB9 /* Pods-AjmoWhatsUp.debug.xcconfig */,
+				0ED0E3206B24EFB2DC5FED27 /* Pods-AjmoWhatsUp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		38345BBA26206CD2005F4B88 = {
 			isa = PBXGroup;
 			children = (
 				38345BC526206CD2005F4B88 /* AjmoWhatsUp */,
 				38345BC426206CD2005F4B88 /* Products */,
+				1046E13936B1E5C986D2776B /* Pods */,
+				C25F58DD6A24E5FBB7FEFAAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +98,57 @@
 			children = (
 				38345BC626206CD2005F4B88 /* AppDelegate.swift */,
 				38345BC826206CD2005F4B88 /* SceneDelegate.swift */,
-				38345BCA26206CD2005F4B88 /* ViewController.swift */,
-				38345BCC26206CD2005F4B88 /* Main.storyboard */,
 				38345BCF26206CD7005F4B88 /* Assets.xcassets */,
 				38345BD126206CD7005F4B88 /* LaunchScreen.storyboard */,
 				38345BD426206CD7005F4B88 /* Info.plist */,
+				38842EC02623057500DE8CBD /* View */,
+				38842EC62623063C00DE8CBD /* Model */,
+				38842EB32622F63B00DE8CBD /* Extensions */,
 			);
 			path = AjmoWhatsUp;
+			sourceTree = "<group>";
+		};
+		38842EB32622F63B00DE8CBD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38842EBC2623042F00DE8CBD /* MainViewControllerExtension.swift */,
+				38842E84262082A500DE8CBD /* ViewControllerExtension.swift */,
+				38842EA22622F0E900DE8CBD /* NavigationBarExtension.swift */,
+				38842EB02622F62900DE8CBD /* ColorExtension.swift */,
+				38842E8B2620B23000DE8CBD /* ImageViewExtension.swift */,
+				38842EB52623033300DE8CBD /* StringExtension.swift */,
+				38842EB82623036E00DE8CBD /* IntExtension.swift */,
+				38842EC926230B4D00DE8CBD /* TransitionExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38842EC02623057500DE8CBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38345BCA26206CD2005F4B88 /* MainViewController.swift */,
+				38842E9F2622DE0300DE8CBD /* DetailViewController.swift */,
+				38345BEA26207667005F4B88 /* MainCollectionViewCell.swift */,
+				38345BCC26206CD2005F4B88 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38842EC62623063C00DE8CBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38842E972620C06700DE8CBD /* PaginationLayout.swift */,
+				38345BED2620767F005F4B88 /* EventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C25F58DD6A24E5FBB7FEFAAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA88AF12BA52B89080C12BCA /* Pods_AjmoWhatsUp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38345BD726206CD7005F4B88 /* Build configuration list for PBXNativeTarget "AjmoWhatsUp" */;
 			buildPhases = (
+				E6DE38B5E555C196C53EEEA4 /* [CP] Check Pods Manifest.lock */,
 				38345BBF26206CD2005F4B88 /* Sources */,
 				38345BC026206CD2005F4B88 /* Frameworks */,
 				38345BC126206CD2005F4B88 /* Resources */,
+				E0AF9CCEFC3600664CD87F46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +218,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E0AF9CCEFC3600664CD87F46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DE38B5E555C196C53EEEA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjmoWhatsUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38345BBF26206CD2005F4B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38345BCB26206CD2005F4B88 /* ViewController.swift in Sources */,
+				38842EB62623033300DE8CBD /* StringExtension.swift in Sources */,
+				38842EBD2623042F00DE8CBD /* MainViewControllerExtension.swift in Sources */,
+				38842EA02622DE0300DE8CBD /* DetailViewController.swift in Sources */,
+				38345BEE2620767F005F4B88 /* EventModel.swift in Sources */,
+				38842E8C2620B23000DE8CBD /* ImageViewExtension.swift in Sources */,
+				38345BCB26206CD2005F4B88 /* MainViewController.swift in Sources */,
+				38842E85262082A500DE8CBD /* ViewControllerExtension.swift in Sources */,
 				38345BC726206CD2005F4B88 /* AppDelegate.swift in Sources */,
+				38842EB92623036E00DE8CBD /* IntExtension.swift in Sources */,
+				38842E982620C06700DE8CBD /* PaginationLayout.swift in Sources */,
 				38345BC926206CD2005F4B88 /* SceneDelegate.swift in Sources */,
+				38842EB12622F62900DE8CBD /* ColorExtension.swift in Sources */,
+				38345BEB26207667005F4B88 /* MainCollectionViewCell.swift in Sources */,
+				38842EA32622F0EA00DE8CBD /* NavigationBarExtension.swift in Sources */,
+				38842ECA26230B4D00DE8CBD /* TransitionExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +423,7 @@
 		};
 		38345BD826206CD7005F4B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D2E79D81E31D565D796EB9 /* Pods-AjmoWhatsUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,12 +436,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MatejTerek.AjmoWhatsUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		38345BD926206CD7005F4B88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED0E3206B24EFB2DC5FED27 /* Pods-AjmoWhatsUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MatejTerek.AjmoWhatsUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

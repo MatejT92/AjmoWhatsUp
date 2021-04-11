@@ -1,0 +1,20 @@
+PODS:
+  - Fire (3.3.5):
+    - Jsonify
+  - Jsonify (2.2.0)
+
+DEPENDENCIES:
+  - Fire
+
+SPEC REPOS:
+  trunk:
+    - Fire
+    - Jsonify
+
+SPEC CHECKSUMS:
+  Fire: 127c6188576b7d91bcaef1f68f44353d54e08f58
+  Jsonify: 4fb79e048811deec904a1392dd791b03d999549a
+
+PODFILE CHECKSUM: 9f84c5938f00673f2abe46320e9f4c85f26f7822
+
+COCOAPODS: 1.9.3
