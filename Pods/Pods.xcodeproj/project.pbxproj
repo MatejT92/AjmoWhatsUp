@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15150BE65C952396C5FD9738644F132D /* Jsonify.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB364D8BA489BE33B5563E4C6BB99AA7 /* Jsonify.swift */; };
+		295229DB2C58C0FDBAD703A35CBBBB18 /* FileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9664A0AB997C4A5B97B7EB3254816 /* FileDescriptor.swift */; };
+		317446CDC929F19450C2DAD86284B98F /* JsonifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7064F028D51C88C7954793E0EC11E /* JsonifyModel.swift */; };
+		3BC40D427B6FE0EF86AA86E90C82DACE /* Jsonify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B646E645C1E52AD9DBBF1B79F76DB68 /* Jsonify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436DA7D0B8541908218A574A41356D57 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713FD8B4F89201C33CE39BE7A5FF4CE /* API.swift */; };
+		5A57BA7EE659BEF5337947138861DDC5 /* Jsonify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25542B180D880827718EC83CEDF33F37 /* Jsonify-dummy.m */; };
+		63A407579A9ADD9544FC69EDCF7867F2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E36ED096DFD1F8A93DF1A5B264D41 /* Helper.swift */; };
+		789E38866D4DB1E4539BB47C816FA1D4 /* Pods-AjmoWhatsUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0417F552EF4F925CB119E6680C6A4ED /* Pods-AjmoWhatsUp-dummy.m */; };
+		7CBA97B827EF9BB758D6E3D07C5A7DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBE6E0A43EC72B534CBC282C5C6A735 /* Foundation.framework */; };
+		8F8CAC00F0FCEF174C70A5C962DA079F /* Fire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CFDE7B2C1432A056C2AD3D1B8DDA75 /* Fire-dummy.m */; };
+		B506EB4B04CBE2011A2C39E32622F7B9 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC97CCF6D7208B4BF22CB168A563365 /* Values.swift */; };
+		BB36633D73C9B5F21C65844F1949D894 /* Fire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA6187CCCD2FAD5605486753F1A314 /* Fire.swift */; };
+		BD4D5D8ED4AC46543026B911BFDF4711 /* Fire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0323C6EF6520D97ACE527A451EB8DBE /* Fire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B78DD0BD991335B75C01566350AC02 /* Jsonify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C5F32287BB5D0212F98072EDC72D4B /* Jsonify.framework */; };
+		CAF097CFE09550CDF25A30FCDD533E2E /* Pods-AjmoWhatsUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 553485DD605842899B5C12E3FE82A80E /* Pods-AjmoWhatsUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D074636875756A45E1398B3781D66244 /* Fire.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE95CF148815DC0E2543CFB745232D2 /* Fire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA9CFBEEE43553F98FBFC08DE2C270C /* Jsonify.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E47775C22B10781B8CB983BBD02B1BA /* Jsonify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD81B592B4E0FEFEC5C90764B34F0DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBE6E0A43EC72B534CBC282C5C6A735 /* Foundation.framework */; };
+		F90081E8E674961C1EE423D84EAC818A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBE6E0A43EC72B534CBC282C5C6A735 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AC531DE091E52321707933D281019D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9284BA0773CD32C40FDC9DF678EEB7D;
+			remoteInfo = Jsonify;
+		};
+		55D46D1B12236795C5FFF385D0CA307D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9284BA0773CD32C40FDC9DF678EEB7D;
+			remoteInfo = Jsonify;
+		};
+		AC13C3FFE4363C7608A4487A65E4E050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCA3CD228DD98006445AEF3385D9AB7;
+			remoteInfo = Fire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B3B009F79734A99E7084624BFB7A900 /* Jsonify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Jsonify.modulemap; sourceTree = "<group>"; };
+		1DE95CF148815DC0E2543CFB745232D2 /* Fire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fire.h; path = Fire/Fire.h; sourceTree = "<group>"; };
+		1FA9B1F34EEB342809B31D9E810A410F /* Jsonify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Jsonify-Info.plist"; sourceTree = "<group>"; };
+		25542B180D880827718EC83CEDF33F37 /* Jsonify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Jsonify-dummy.m"; sourceTree = "<group>"; };
+		33458B91CC9E6C16A9BB3CA263CD548F /* Jsonify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Jsonify.debug.xcconfig; sourceTree = "<group>"; };
+		335D90951AF291B24F4F47CE3EA99EC7 /* Pods-AjmoWhatsUp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AjmoWhatsUp-Info.plist"; sourceTree = "<group>"; };
+		3CA867DA4EBF13C7205685DA0AC22FF9 /* Fire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Fire-Info.plist"; sourceTree = "<group>"; };
+		3F4AD0A77A31A55E25108CF83B24DC71 /* Jsonify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Jsonify.release.xcconfig; sourceTree = "<group>"; };
+		407411E228665AAAD529EFDC2DFE1F6C /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Jsonify.framework; path = Jsonify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4713FD8B4F89201C33CE39BE7A5FF4CE /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = Fire/API.swift; sourceTree = "<group>"; };
+		4CB57B3B09E5BD9187B739980F60B204 /* Jsonify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jsonify-prefix.pch"; sourceTree = "<group>"; };
+		553485DD605842899B5C12E3FE82A80E /* Pods-AjmoWhatsUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AjmoWhatsUp-umbrella.h"; sourceTree = "<group>"; };
+		6297DA8922BCBA80E9B71F51434C7D89 /* Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fire.framework; path = Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CFDE7B2C1432A056C2AD3D1B8DDA75 /* Fire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fire-dummy.m"; sourceTree = "<group>"; };
+		6ACC3F470D8FB0D33FD9C23530AD7229 /* Fire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fire-prefix.pch"; sourceTree = "<group>"; };
+		81071BEE07FC26091DCE157DF6AB466D /* Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fire.release.xcconfig; sourceTree = "<group>"; };
+		86B46112C1432DD00313F0788478A0AD /* Pods-AjmoWhatsUp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AjmoWhatsUp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DA7064F028D51C88C7954793E0EC11E /* JsonifyModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonifyModel.swift; path = Jsonify/JsonifyModel.swift; sourceTree = "<group>"; };
+		98451A311A5355E2220D408328E01D01 /* Pods-AjmoWhatsUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AjmoWhatsUp.debug.xcconfig"; sourceTree = "<group>"; };
+		9B646E645C1E52AD9DBBF1B79F76DB68 /* Jsonify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Jsonify-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E47775C22B10781B8CB983BBD02B1BA /* Jsonify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Jsonify.h; path = Jsonify/Jsonify.h; sourceTree = "<group>"; };
+		A0EA6187CCCD2FAD5605486753F1A314 /* Fire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fire.swift; path = Fire/Fire.swift; sourceTree = "<group>"; };
+		A95154C35A770CAD9B2DCDEC4C594904 /* Pods-AjmoWhatsUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AjmoWhatsUp.release.xcconfig"; sourceTree = "<group>"; };
+		BD2B6B6F969AA46B38B8B55CB987A924 /* Pods-AjmoWhatsUp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AjmoWhatsUp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C11A0A4A24743B4BA5B72E9B65FE71E4 /* Pods-AjmoWhatsUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AjmoWhatsUp.modulemap"; sourceTree = "<group>"; };
+		C3571CA6C9C586E4D7FD8864A2F0BC3C /* Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fire.debug.xcconfig; sourceTree = "<group>"; };
+		C36E36ED096DFD1F8A93DF1A5B264D41 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Fire/Helper.swift; sourceTree = "<group>"; };
+		CDAEB14343EED072E3B51ECFC3A062C4 /* Pods-AjmoWhatsUp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AjmoWhatsUp-frameworks.sh"; sourceTree = "<group>"; };
+		D40AD62572417C5491B375CB90CD982B /* Fire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fire.modulemap; sourceTree = "<group>"; };
+		D6C5F32287BB5D0212F98072EDC72D4B /* Jsonify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jsonify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF9664A0AB997C4A5B97B7EB3254816 /* FileDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDescriptor.swift; path = Fire/FileDescriptor.swift; sourceTree = "<group>"; };
+		E0323C6EF6520D97ACE527A451EB8DBE /* Fire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fire-umbrella.h"; sourceTree = "<group>"; };
+		EB364D8BA489BE33B5563E4C6BB99AA7 /* Jsonify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Jsonify.swift; path = Jsonify/Jsonify.swift; sourceTree = "<group>"; };
+		EDA9D9B05C23182380D0971C1F918083 /* Pods_AjmoWhatsUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AjmoWhatsUp.framework; path = "Pods-AjmoWhatsUp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0417F552EF4F925CB119E6680C6A4ED /* Pods-AjmoWhatsUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AjmoWhatsUp-dummy.m"; sourceTree = "<group>"; };
+		FBC97CCF6D7208B4BF22CB168A563365 /* Values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Values.swift; path = Fire/Values.swift; sourceTree = "<group>"; };
+		FCBE6E0A43EC72B534CBC282C5C6A735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2729FE22291A33C67840F97AEEC8CA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90081E8E674961C1EE423D84EAC818A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7671FD23A8C90E7ACD8A1AE500F2CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD81B592B4E0FEFEC5C90764B34F0DF /* Foundation.framework in Frameworks */,
+				C4B78DD0BD991335B75C01566350AC02 /* Jsonify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F7D4869B36C2683C856764679FFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBA97B827EF9BB758D6E3D07C5A7DC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9E65E52420E619872ABA480ED0BFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6297DA8922BCBA80E9B71F51434C7D89 /* Fire.framework */,
+				407411E228665AAAD529EFDC2DFE1F6C /* Jsonify.framework */,
+				EDA9D9B05C23182380D0971C1F918083 /* Pods_AjmoWhatsUp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF3BA0BA0D1FA6EB14C1351DD1BBBDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E15AA8B391432224AC6940300061FA3 /* Pods-AjmoWhatsUp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E15AA8B391432224AC6940300061FA3 /* Pods-AjmoWhatsUp */ = {
+			isa = PBXGroup;
+			children = (
+				C11A0A4A24743B4BA5B72E9B65FE71E4 /* Pods-AjmoWhatsUp.modulemap */,
+				BD2B6B6F969AA46B38B8B55CB987A924 /* Pods-AjmoWhatsUp-acknowledgements.markdown */,
+				86B46112C1432DD00313F0788478A0AD /* Pods-AjmoWhatsUp-acknowledgements.plist */,
+				F0417F552EF4F925CB119E6680C6A4ED /* Pods-AjmoWhatsUp-dummy.m */,
+				CDAEB14343EED072E3B51ECFC3A062C4 /* Pods-AjmoWhatsUp-frameworks.sh */,
+				335D90951AF291B24F4F47CE3EA99EC7 /* Pods-AjmoWhatsUp-Info.plist */,
+				553485DD605842899B5C12E3FE82A80E /* Pods-AjmoWhatsUp-umbrella.h */,
+				98451A311A5355E2220D408328E01D01 /* Pods-AjmoWhatsUp.debug.xcconfig */,
+				A95154C35A770CAD9B2DCDEC4C594904 /* Pods-AjmoWhatsUp.release.xcconfig */,
+			);
+			name = "Pods-AjmoWhatsUp";
+			path = "Target Support Files/Pods-AjmoWhatsUp";
+			sourceTree = "<group>";
+		};
+		3DD95CF753936A9AEC56C9CC8AFFC3BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E02F9C0E8331A0956CC2BEFE272893 /* Fire */,
+				F2B574E4C45F337326DDF2A6C4A97E94 /* Jsonify */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E5041C9BC8DA4164476E45D49B1D4E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B3B009F79734A99E7084624BFB7A900 /* Jsonify.modulemap */,
+				25542B180D880827718EC83CEDF33F37 /* Jsonify-dummy.m */,
+				1FA9B1F34EEB342809B31D9E810A410F /* Jsonify-Info.plist */,
+				4CB57B3B09E5BD9187B739980F60B204 /* Jsonify-prefix.pch */,
+				9B646E645C1E52AD9DBBF1B79F76DB68 /* Jsonify-umbrella.h */,
+				33458B91CC9E6C16A9BB3CA263CD548F /* Jsonify.debug.xcconfig */,
+				3F4AD0A77A31A55E25108CF83B24DC71 /* Jsonify.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Jsonify";
+			sourceTree = "<group>";
+		};
+		86E02F9C0E8331A0956CC2BEFE272893 /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				4713FD8B4F89201C33CE39BE7A5FF4CE /* API.swift */,
+				DEF9664A0AB997C4A5B97B7EB3254816 /* FileDescriptor.swift */,
+				1DE95CF148815DC0E2543CFB745232D2 /* Fire.h */,
+				A0EA6187CCCD2FAD5605486753F1A314 /* Fire.swift */,
+				C36E36ED096DFD1F8A93DF1A5B264D41 /* Helper.swift */,
+				FBC97CCF6D7208B4BF22CB168A563365 /* Values.swift */,
+				BC6CE75602A4C97E561C2A7973E23AAF /* Support Files */,
+			);
+			name = Fire;
+			path = Fire;
+			sourceTree = "<group>";
+		};
+		BC6CE75602A4C97E561C2A7973E23AAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40AD62572417C5491B375CB90CD982B /* Fire.modulemap */,
+				66CFDE7B2C1432A056C2AD3D1B8DDA75 /* Fire-dummy.m */,
+				3CA867DA4EBF13C7205685DA0AC22FF9 /* Fire-Info.plist */,
+				6ACC3F470D8FB0D33FD9C23530AD7229 /* Fire-prefix.pch */,
+				E0323C6EF6520D97ACE527A451EB8DBE /* Fire-umbrella.h */,
+				C3571CA6C9C586E4D7FD8864A2F0BC3C /* Fire.debug.xcconfig */,
+				81071BEE07FC26091DCE157DF6AB466D /* Fire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fire";
+			sourceTree = "<group>";
+		};
+		C4A8F1DC50410A546FF7D5843A28CEBB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE6E0A43EC72B534CBC282C5C6A735 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E30F6A12CA43418E5841942A483A0796 /* Frameworks */,
+				3DD95CF753936A9AEC56C9CC8AFFC3BE /* Pods */,
+				1B9E65E52420E619872ABA480ED0BFFC /* Products */,
+				2BF3BA0BA0D1FA6EB14C1351DD1BBBDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E30F6A12CA43418E5841942A483A0796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C5F32287BB5D0212F98072EDC72D4B /* Jsonify.framework */,
+				C4A8F1DC50410A546FF7D5843A28CEBB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B574E4C45F337326DDF2A6C4A97E94 /* Jsonify */ = {
+			isa = PBXGroup;
+			children = (
+				9E47775C22B10781B8CB983BBD02B1BA /* Jsonify.h */,
+				EB364D8BA489BE33B5563E4C6BB99AA7 /* Jsonify.swift */,
+				8DA7064F028D51C88C7954793E0EC11E /* JsonifyModel.swift */,
+				7E5041C9BC8DA4164476E45D49B1D4E0 /* Support Files */,
+			);
+			name = Jsonify;
+			path = Jsonify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		326941CB164AEECE658CC72DF4539D75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC40D427B6FE0EF86AA86E90C82DACE /* Jsonify-umbrella.h in Headers */,
+				EBA9CFBEEE43553F98FBFC08DE2C270C /* Jsonify.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D365239C7A2F284D3E6A7420B5A4D8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF097CFE09550CDF25A30FCDD533E2E /* Pods-AjmoWhatsUp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31BE1FA19DA32329B8B209FC3619C7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D5D8ED4AC46543026B911BFDF4711 /* Fire-umbrella.h in Headers */,
+				D074636875756A45E1398B3781D66244 /* Fire.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FCA3CD228DD98006445AEF3385D9AB7 /* Fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6773D9446556A191A1A10A531A35E29 /* Build configuration list for PBXNativeTarget "Fire" */;
+			buildPhases = (
+				F31BE1FA19DA32329B8B209FC3619C7B /* Headers */,
+				9B8AC1C7DA752562B1C95D5A79109AF6 /* Sources */,
+				F7671FD23A8C90E7ACD8A1AE500F2CC1 /* Frameworks */,
+				0069C26DCEB4A3D7BDAB51DE2D5340B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EBB898CCF12F84780E5AE62D7D6865A /* PBXTargetDependency */,
+			);
+			name = Fire;
+			productName = Fire;
+			productReference = 6297DA8922BCBA80E9B71F51434C7D89 /* Fire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F4C9EE852CD152C5429AC3D17AA6490 /* Pods-AjmoWhatsUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B289EB9034C22BBB77134F4AE7A9A0E /* Build configuration list for PBXNativeTarget "Pods-AjmoWhatsUp" */;
+			buildPhases = (
+				5D365239C7A2F284D3E6A7420B5A4D8D /* Headers */,
+				E255A54D8530EDAEC66E728AE6C1F524 /* Sources */,
+				2729FE22291A33C67840F97AEEC8CA03 /* Frameworks */,
+				366E4A07024889F0FD4EC9705DADE4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D693243E7ED88C039AA5383A5C04B4 /* PBXTargetDependency */,
+				A8DE77ACE4B919F003054B50A9EDA156 /* PBXTargetDependency */,
+			);
+			name = "Pods-AjmoWhatsUp";
+			productName = "Pods-AjmoWhatsUp";
+			productReference = EDA9D9B05C23182380D0971C1F918083 /* Pods_AjmoWhatsUp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9284BA0773CD32C40FDC9DF678EEB7D /* Jsonify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01465CE15E1435ECA4250DC179F5926C /* Build configuration list for PBXNativeTarget "Jsonify" */;
+			buildPhases = (
+				326941CB164AEECE658CC72DF4539D75 /* Headers */,
+				1AE06DA18AC469BF75B50C2B20FACB9C /* Sources */,
+				F92F7D4869B36C2683C856764679FFAB /* Frameworks */,
+				8727666E5CC375FD6ABA6010399AF1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jsonify;
+			productName = Jsonify;
+			productReference = 407411E228665AAAD529EFDC2DFE1F6C /* Jsonify.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1B9E65E52420E619872ABA480ED0BFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FCA3CD228DD98006445AEF3385D9AB7 /* Fire */,
+				A9284BA0773CD32C40FDC9DF678EEB7D /* Jsonify */,
+				7F4C9EE852CD152C5429AC3D17AA6490 /* Pods-AjmoWhatsUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0069C26DCEB4A3D7BDAB51DE2D5340B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366E4A07024889F0FD4EC9705DADE4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8727666E5CC375FD6ABA6010399AF1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE06DA18AC469BF75B50C2B20FACB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A57BA7EE659BEF5337947138861DDC5 /* Jsonify-dummy.m in Sources */,
+				15150BE65C952396C5FD9738644F132D /* Jsonify.swift in Sources */,
+				317446CDC929F19450C2DAD86284B98F /* JsonifyModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8AC1C7DA752562B1C95D5A79109AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436DA7D0B8541908218A574A41356D57 /* API.swift in Sources */,
+				295229DB2C58C0FDBAD703A35CBBBB18 /* FileDescriptor.swift in Sources */,
+				8F8CAC00F0FCEF174C70A5C962DA079F /* Fire-dummy.m in Sources */,
+				BB36633D73C9B5F21C65844F1949D894 /* Fire.swift in Sources */,
+				63A407579A9ADD9544FC69EDCF7867F2 /* Helper.swift in Sources */,
+				B506EB4B04CBE2011A2C39E32622F7B9 /* Values.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E255A54D8530EDAEC66E728AE6C1F524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789E38866D4DB1E4539BB47C816FA1D4 /* Pods-AjmoWhatsUp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EBB898CCF12F84780E5AE62D7D6865A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Jsonify;
+			target = A9284BA0773CD32C40FDC9DF678EEB7D /* Jsonify */;
+			targetProxy = 55D46D1B12236795C5FFF385D0CA307D /* PBXContainerItemProxy */;
+		};
+		A8DE77ACE4B919F003054B50A9EDA156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Jsonify;
+			target = A9284BA0773CD32C40FDC9DF678EEB7D /* Jsonify */;
+			targetProxy = 10AC531DE091E52321707933D281019D /* PBXContainerItemProxy */;
+		};
+		D8D693243E7ED88C039AA5383A5C04B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fire;
+			target = 0FCA3CD228DD98006445AEF3385D9AB7 /* Fire */;
+			targetProxy = AC13C3FFE4363C7608A4487A65E4E050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C362D60953AB8C3CE6296B04039C734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E333EA8500E48E45992BA166B4A8F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3571CA6C9C586E4D7FD8864A2F0BC3C /* Fire.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fire/Fire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fire/Fire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fire/Fire.modulemap";
+				PRODUCT_MODULE_NAME = Fire;
+				PRODUCT_NAME = Fire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EDC151F4BD86FF8314C14E225C74133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98451A311A5355E2220D408328E01D01 /* Pods-AjmoWhatsUp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70316595C2F2AE9923F8DA14508E87F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8BBD0D21D930FA38FD7EDEA532832668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4AD0A77A31A55E25108CF83B24DC71 /* Jsonify.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Jsonify/Jsonify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jsonify/Jsonify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Jsonify/Jsonify.modulemap";
+				PRODUCT_MODULE_NAME = Jsonify;
+				PRODUCT_NAME = Jsonify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A625BF03EA93326236B6E1AF4418B3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95154C35A770CAD9B2DCDEC4C594904 /* Pods-AjmoWhatsUp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AjmoWhatsUp/Pods-AjmoWhatsUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F630FD60BD339FAA5255495A0A0A721B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81071BEE07FC26091DCE157DF6AB466D /* Fire.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fire/Fire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fire/Fire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fire/Fire.modulemap";
+				PRODUCT_MODULE_NAME = Fire;
+				PRODUCT_NAME = Fire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB7C14AE1E6CE9DDCEFE84498904DA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33458B91CC9E6C16A9BB3CA263CD548F /* Jsonify.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Jsonify/Jsonify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Jsonify/Jsonify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Jsonify/Jsonify.modulemap";
+				PRODUCT_MODULE_NAME = Jsonify;
+				PRODUCT_NAME = Jsonify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01465CE15E1435ECA4250DC179F5926C /* Build configuration list for PBXNativeTarget "Jsonify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7C14AE1E6CE9DDCEFE84498904DA34 /* Debug */,
+				8BBD0D21D930FA38FD7EDEA532832668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B289EB9034C22BBB77134F4AE7A9A0E /* Build configuration list for PBXNativeTarget "Pods-AjmoWhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC151F4BD86FF8314C14E225C74133 /* Debug */,
+				A625BF03EA93326236B6E1AF4418B3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C362D60953AB8C3CE6296B04039C734 /* Debug */,
+				70316595C2F2AE9923F8DA14508E87F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6773D9446556A191A1A10A531A35E29 /* Build configuration list for PBXNativeTarget "Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E333EA8500E48E45992BA166B4A8F4F /* Debug */,
+				F630FD60BD339FAA5255495A0A0A721B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
